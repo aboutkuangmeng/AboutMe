@@ -1,12 +1,18 @@
 <header>
     <nav class="navbar">
         <div class="container">
-            <div class="navbar-header header-logo"><a href="http://about.meng.uno/calendar">Personal Calendar</a></div>
+            <div class="navbar-header header-logo">
+              <% if(url.indexOf("calendar") != -1){ %>
+                <a href="/">Curriculum Vitaer</a>
+              <% }else{ %>
+                <a href="/calendar">Personal Calendar</a>
+              <% } %>
+            </div>
             <div class="menu navbar-right">
                 <a class="menu-item" href="https://meng.uno">Blog</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                 <a class="menu-item" href="https://scholar.google.com/citations?user=3RHx3dsAAAAJ&hl=zh-CN&oi=ao">Publications</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-                <a class="menu-item" href="http://about.meng.uno/cv_en.pdf">&#91; Curriculum Vitae</a><span>|</span>
-                <a class="menu-item" href="http://about.meng.uno/cv_cn.pdf">简历 &#93;</a>
+                <a class="menu-item" href="/cv_en.pdf">&#91; Curriculum Vitae</a><span>|</span>
+                <a class="menu-item" href="/cv_cn.pdf">简历 &#93;</a>
                   <!-- <% for (var i in theme.nav){ %>
                       <a class="menu-item" href="<%- url_for(theme.nav[i]) %>">[<%=i%>]</a>
                   <% } %> -->
@@ -28,8 +34,8 @@
             <div class="menu" id="mobile-menu">
               <a class="menu-item" href="https://meng.uno">Blog</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
               <a class="menu-item" href="https://scholar.google.com/citations?user=3RHx3dsAAAAJ&hl=zh-CN&oi=ao">Publications</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-              <a class="menu-item" href="http://about.meng.uno/cv_en.pdf">&#91; Curriculum Vitae</a><span>|</span>
-              <a class="menu-item" href="http://about.meng.uno/cv_cn.pdf">简历 &#93;</a>
+              <a class="menu-item" href="/cv_en.pdf">&#91; Curriculum Vitae</a><span>|</span>
+              <a class="menu-item" href="/cv_cn.pdf">简历 &#93;</a>
                 <!-- <% for (var i in theme.nav){ %>
                     <a class="menu-item" href="<%- url_for(theme.nav[i]) %>">[<%=i%>]</a>
                 <% } %> -->
