@@ -7,8 +7,7 @@ nav:
   # Categories: http://categories.meng.uno
   # Tags: http://tags.meng.uno
   # Comments: http://comments.meng.uno
-  Curriculum Vitae: /cv_en.pdf
-  简历: /cv_cn.pdf
+  Curriculum Vitae: /CV_Mengmeng_HKU.pdf
 
 # favicon
 favicon: /logo.png
@@ -17,7 +16,7 @@ favicon: /logo.png
 nickname: Mengmeng Kuang
 
 ### this variable is MarkDown form.
-description: I am Mengmeng Kuang. I received an M.Phil degree in Computer Science from <a href="https://www.hku.hk">The University of Hong Kong</a>. I am fortunate to be supervised by Dr. <a href="https://www.cs.hku.hk/people/academic-staff/hfting">Hing-fung Ting</a>. Prior to HKU, I received a B.Eng Degree in Computer Science from <a href="http://www.hit.edu.cn">Harbin Institute of Technology</a>, Harbin China, supervised by Prof. <a href="http://homepage.hit.edu.cn/zhaotiejun">Tiejun Zhao</a>.
+description: My name is Mengmeng Kuang, an Application Reseacher in Search Algorithm direction in <a href="https://www.tencent.com/en-us">Tencent</a> (<a href="https://www.wechat.com/en/">WeChat Group</a>) currently. Before that, I received an M.Phil degree in Computer Science from <a href="https://www.hku.hk">The University of Hong Kong</a>. I am fortunate to be supervised by Dr. <a href="https://www.cs.hku.hk/people/academic-staff/hfting">Hing-fung Ting</a>, who taught me how to do research. Prior to HKU, I received a B.Eng Degree in Computer Science from <a href="http://www.hit.edu.cn">Harbin Institute of Technology</a>, Harbin China, supervised by Prof. <a href="http://homepage.hit.edu.cn/zhaotiejun">Tiejun Zhao</a>. During that period, I learned a lot of basic knowledge about computer science and cultivated my interest in computer science research.
 avatar: /image/avatar.png
 
 # main menu navigation
